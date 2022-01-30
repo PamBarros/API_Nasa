@@ -8,8 +8,7 @@ $(".search").click(function(){
   nasa();
 });
 
-//Função referente ao processo da API com o site da Nasa
-
+//Função referente ao processo da data com a API do site da Nasa
 function nasa() {
 
   //Pega o valor de data atribuído pelo usuário na tela
