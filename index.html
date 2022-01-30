@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto APOD</title>
+    <link rel="stylesheet" href="./CSS/reset.css">    
+    <link rel="stylesheet" href="./CSS/style.css">    
+</head>
+<body>
+
+    <header>
+
+        <a href="https://github.com/PamBarros"><h1>APOD</h1></a>
+
+    </header>
+
+    <main>
+
+        <div class="escolha">
+
+            <label for="date">Selecione uma data:</label>
+            <input type="date" id="date" min="1995-06-20">
+            <button class="search" id="search">Procurar</button>
+
+        </div>
+
+        <div class="apod">
+            <div class="imagem"></div>
+            <h1 class="titulo"></h1>
+            <p class="explicacao"></p>
+
+        </div>
+
+
+    </main>
+
+
+    <footer>
+
+        <p>&#169 Copyright 2022 - Paloma Barros</p><br>
+
+        <div class="icones">
+            
+            <a href="https://github.com/PamBarros"><img src="./IMG/github.png" alt="iconegithub" class="icone"></a>
+            <a href="https://www.linkedin.com/in/paloma-da-silva-barros-292814166/"><img src="./IMG/linkedin.png" alt="iconelinkedin" class="icone"></a>
+            <a href="https://www.instagram.com/pombabarros/"><img src="./IMG/instagram.png" alt="iconeinsta" class="icone"></a>
+
+        </div>
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./JS/index.js"></script>
+    
+</body>
+</html>

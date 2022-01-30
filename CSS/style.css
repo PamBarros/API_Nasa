@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+@font-face {
+    font-family: "Space Age";
+    src: url("../space_age/space\ age.ttf");
+  }
+
+body{
+    width: 100vw;
+    margin: 0vh;
+}
+
+header{
+    background-image: linear-gradient(to right, rgb(255, 255, 255), black);
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header h1{
+    font-family: "Space Age";
+    font-size: 15vh;
+    color: white;
+    padding-right: 5vh;
+}
+
+.escolha{
+    background-color: rgb(77, 75, 75);
+    box-shadow: inset 0 0 2vh rgba(255, 255, 255, 0.644);
+    color: white;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-family: 'Dongle', sans-serif;
+    font-size: 4vh;
+}
+
+input{
+    margin-left: 1vw;
+
+}
+
+button{
+    margin-left: 4vw;
+    font-family: 'Dongle', sans-serif;
+    font-size: 3vh;
+    background-color: rgb(201, 201, 201);
+    border-style: double;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+
+.apod{
+    width: 100vw;
+    height: 80vh;
+    padding-top: 5vh;
+    background-image: url("../IMG/cosmos-universo.gif");
+    background-size: cover;
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    text-align: center;
+}
+
+.img{
+    width: 50vw;
+    height: 50vh;
+}
+
+.titulo{
+    font-size: 4vh;
+}
+
+.explicacao{
+    font-size: 3vh;
+    width: 80vw;
+    margin: auto;
+}
+
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    bottom: 0vh;
+    text-align: center;
+    background-color: #808080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2vh 0vh 2vh 0vh;
+}
+
+footer p{
+    font-size: 2vh;
+    font-weight: bold;
+    background-color: #808080;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icone{
+    width: 2.5vw;
+    height: 4vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+
+@media screen and (max-width: 480px )
