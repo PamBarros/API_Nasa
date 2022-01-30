@@ -136,6 +136,7 @@ header h1{
 label{
 
     font-size: 3vh;
+    padding-left: 1vh;
 }
 
 input{
@@ -146,17 +147,21 @@ input{
 button{
 
     font-size: 2.5vh;
+    padding-right: 1vh;
 }
 
 .apod{
-    height: 90vh;
+    height: 100vh;
 }
-
 
 .img{
 
     width: 30vh;
     height: 30vh;
+}
+
+.explicacao{
+    font-size: 2.5vh;
 }
 
 footer p {
