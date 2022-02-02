@@ -1,7 +1,6 @@
 //chave: cfN8awDgi0brfJgfyINLSn55IAbEmTeTCeP7o4eK
 
 //Função do Botão - Click
-
 $(".search").click(function(){
   $('.apod').css("background-image", "none")
   $('.apod').css("background-color", "black");
